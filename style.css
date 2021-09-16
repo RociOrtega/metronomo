@@ -36,13 +36,8 @@ body{
     font-weight: bold;
     color: #FFFFFF;
 }
-.login{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-form{
-    margin: 2%;
+.formulario-sesion{
+    margin: 5% 10%;
 }
 .contenedor{
     display: none;
@@ -166,7 +161,7 @@ form{
 .btn-ritmo:hover{
     background-color: #FAFAFA;
 }
-.active{
+.activo{
     background-color: #FAFAFA;
     box-shadow: 4px 4px 8px #3b3b3b;
     transform: scale(1.1, 1.1);

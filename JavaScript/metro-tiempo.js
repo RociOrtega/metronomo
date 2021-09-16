@@ -1,7 +1,7 @@
 function MetronomoTiempo(callback, intervaloTiempo){
     this.intervaloTiempo = intervaloTiempo;
 
-    this.comienzarTiempo = () => {
+    this.comenzarTiempo = () => {
         this.tiempoEsperado = Date.now() + this.intervaloTiempo;
         this.tiempoFuera = setTimeout(this.round, this.intervaloTiempo);
     }

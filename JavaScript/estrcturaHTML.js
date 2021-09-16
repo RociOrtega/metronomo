@@ -50,19 +50,21 @@ const cargarMenuMetronomo = () => {$('body').prepend(`
         <a class="dropdown-item" href="#">Última configuración</a>
     </div>`);
 };
-const cargarLoginMetronomo = () => {$('.login').prepend(`
-    <form id="formulario"> 
-        <div class="form-group">
-            <label for="form-correo">Correo electrónico</label>
-            <input type="email" class="form-control" id="form-correo" placeholder="Ingresa tu correo electrónico">
-            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con alguna otra entidad.</small>
-        </div>
-        <div class="form-group">
-            <label for="nombre-usuario">Nombre de usuario(a)</label>
-            <input type="text" class="form-control" id="nombre-usuario" placeholder="Ingresa tu nombre de usuario">
-        </div>
-        <input type="button" value="Enviar" class="btn btn-success btn-submit"/>
-    </form>`);
+const cargarLoginMetronomo = () => {$('.formulario-sesion').prepend(`
+    <section class="formulario_sesion">
+        <form id="formulario"> 
+            <div class="form-group">
+                <label for="form-correo">Correo electrónico</label>
+                <input type="email" class="form-control" id="form-correo" placeholder="Ingresa tu correo electrónico">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con alguna otra entidad.</small>
+            </div>
+            <div class="form-group">
+                <label for="nombre-usuario">Nombre de usuario(a)</label>
+                <input type="text" class="form-control" id="nombre-usuario" placeholder="Ingresa tu nombre">
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-success btn-submit"/>
+        </form>
+    </section>`);
 };
 
 function cargarMetronomoHTML(){
