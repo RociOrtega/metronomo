@@ -1,14 +1,15 @@
+//Estructura inicial del proyecto
 const cargarMetronomoEnContenedor = () => {$('.contenedor').prepend(`
     <h1 class="titulo">Metrónomo</h1>
     <section class="metronomo">
         <div class="metro-visor">
-            <span class="tiempo">160</span>
+            <span id="tiempo">160</span>
             <span class="bpm">bpm</span>
         </div>
-        <p class="metro-texto">Allegro - Presto</p>
+        <p id="metro-texto">Allegro - Presto</p>
         <div class="metro-ajuste">
             <button type="button" class="btn-ajuste btn-resta">-</button>
-            <input type="range" min="20" max="300" step="1" class="slide">
+            <input type="range" value="160" min="20" max="300" step="1" class="slide">
             <button type="button" class="btn-ajuste btn-suma">+</button>
         </div>
         <button type="button" class="star-stop" data-toggle="modal" data-target="#modalStartStop">
@@ -46,8 +47,8 @@ const cargarMenuMetronomo = () => {$('body').prepend(`
         <div class="img-usuario"></div>
         <div class="nombre-usuario">Hola, User!</div>
     </div>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Última configuración</a>
+    <div class="dropdown-menu btn-menu" aria-labelledby="dropdownMenuButton">
+
     </div>`);
 };
 const cargarLoginMetronomo = () => {$('.formulario-sesion').prepend(`

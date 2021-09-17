@@ -18,6 +18,15 @@ body{
     cursor: pointer;
     background-color: #352a24;
 }
+.btn-menu:hover{
+    border: 2px solid #352a24b4;
+    background-color: #352a249d;
+    box-shadow: 2px 2px 3px #000000;
+}
+#btn-menu-texto:hover{
+    background-color: #352a2400;
+    color: #FFFFFF;
+}
 .img-usuario{
     background-color: #f6d465;
     background-image: url(./assets/user.png);
@@ -44,8 +53,8 @@ body{
 }
 .titulo{
     margin: 5% 0;
-    letter-spacing: 2px;
-    font-size: 4em;
+    letter-spacing: 1%;
+    font-size: 3.7em;
     text-shadow: 2px 2px 3px #000000;
 }
 .metronomo{
@@ -53,7 +62,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 310px;
+    width: 300px;
     height: 320px;
     box-shadow: 2px 2px 6px #000000;
     border-radius: 5px;
@@ -65,13 +74,13 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
 }
-.tiempo{
+#tiempo{
     font-size: 4em;
 }
 .bpm{
     font-size: 1.5em;
 }
-.metro-texto{
+#metro-texto{
     font-weight: bold;
     color: #FFFFFF; 
 }
@@ -197,3 +206,7 @@ body{
     color: #000000;
     font-weight: bold;
 }
+
+
+
+
