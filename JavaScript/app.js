@@ -5,6 +5,9 @@ import selectorModalFiguras from "./modalFigRit.js";
 import sesionGuardado from "./inicioSesion.js";
 
 $(document).ready(function() {
+    cargarMetronomoHTML();
+    sesionGuardado();
+    botonMenu();
     const btnStartStop = $('.star-stop');
     const metroVisor = $('#tiempo');
     const metroTexto = $('#metro-texto');
@@ -20,10 +23,6 @@ $(document).ready(function() {
     let subdivision = 1;
     let startStop = false;
     let configuracion = [];
-
-    cargarMetronomoHTML();
-    sesionGuardado();
-    botonMenu();
 
     function botonMenu(){
         let transformarConfiguracion = JSON.parse(localStorage.getItem("Configuracion"));

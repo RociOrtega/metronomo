@@ -22,6 +22,7 @@ body{
     border: 2px solid #352a24b4;
     background-color: #352a249d;
     box-shadow: 2px 2px 3px #000000;
+    color: #FFFFFF;
 }
 #btn-menu-texto:hover{
     background-color: #352a2400;

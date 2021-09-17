@@ -47,9 +47,7 @@ const cargarMenuMetronomo = () => {$('body').prepend(`
         <div class="img-usuario"></div>
         <div class="nombre-usuario">Hola, User!</div>
     </div>
-    <div class="dropdown-menu btn-menu" aria-labelledby="dropdownMenuButton">
-
-    </div>`);
+    <div class="dropdown-menu btn-menu" aria-labelledby="dropdownMenuButton">Ingresa primero</div>`);
 };
 const cargarLoginMetronomo = () => {$('.formulario-sesion').prepend(`
     <section class="formulario_sesion">
