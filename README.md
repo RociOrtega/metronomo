@@ -24,3 +24,5 @@ Lista de las tecnologías:
 ***
 ***
 **Si quieres realizar alguna colaboración es bienvenida, solo debes incluirla dentro de éste archivo README.**
+***
+Enlace a pages de github: https://rociortega.github.io/metronomo/
